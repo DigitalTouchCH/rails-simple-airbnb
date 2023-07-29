@@ -17,7 +17,7 @@ Flat.create!(
 )
 
 Flat.create!(
-  name: 'Flat Paris',
+  name: 'Sytlish House Close to Rivers Flat Paris',
   address: '10 Clifton Gardens Paris W9 1DT',
   description: 'A lovely summer feel for this spacious garden flat. Two double bedrooms, open plan living area, large kitchen and a beautiful conservatory',
   price_per_night: 100,
@@ -25,7 +25,7 @@ Flat.create!(
 )
 
 Flat.create!(
-  name: 'Flat Berlin',
+  name: 'St Pancras Clock Tower Flat Berlin',
   address: '10 Clifton Gardens Berlin W9 1DT',
   description: 'A lovely summer feel for this spacious garden flat. Two double bedrooms, open plan living area, large kitchen and a beautiful conservatory',
   price_per_night: 50,
@@ -33,7 +33,7 @@ Flat.create!(
 )
 
 Flat.create!(
-  name: 'Flat Rome',
+  name: 'beautiful Flat in centre of Rome',
   address: '10 Clifton Gardens Rome W9 1DT',
   description: 'A lovely summer feel for this spacious garden flat. Two double bedrooms, open plan living area, large kitchen and a beautiful conservatory',
   price_per_night: 150,

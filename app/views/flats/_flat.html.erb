@@ -1,27 +1,20 @@
-<div id="<%= dom_id flat %>">
-  <p>
-    <strong>Name:</strong>
-    <%= flat.name %>
-  </p>
+<div id="<%= dom_id flat %>" class="card" style="width: 25rem;">
+  <div class="card-header">
+    <h2>
+      <%= flat.name %>
+    </h2>
 
-  <p>
-    <strong>Address:</strong>
-    <%= flat.address %>
-  </p>
+    <p>
+      <strong><%= flat.address %></strong>
+    </p>
 
-  <p>
-    <strong>Description:</strong>
-    <%= flat.description %>
-  </p>
+    <i class="fa-solid fa-users"></i><%=flat.number_of_guests %>
 
-  <p>
-    <strong>Price per night:</strong>
-    <%= flat.price_per_night %>
-  </p>
+    <i class="fa-solid fa-euro-sign"></i><%= flat.price_per_night %>
 
-  <p>
-    <strong>Number of guest:</strong>
-    <%= flat.number_of_guest %>
-  </p>
+  </div>
 
+  <div class="card-body">
+      <%= link_to "More info", flat, class:"link-no-underline" %>
+  </div>
 </div>

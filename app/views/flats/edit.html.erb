@@ -1,10 +1,14 @@
+<div style="width: 50rem;">
+
 <h1>Editing flat</h1>
 
 <%= render "form", flat: @flat %>
 
+</div>
+
 <br>
 
-<div>
-  <%= link_to "Show this flat", @flat %> |
-  <%= link_to "Back to flats", flats_path %>
+<div class="card-body d-grid gap-2 d-md-flex justify-content-center" >
+  <%= link_to "Show this flat", @flat, class:"btn btn-dark" %>
+  <%= link_to "Back to flats", flats_path, class:"btn btn-dark"%>
 </div>
